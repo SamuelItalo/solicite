@@ -46,7 +46,6 @@ header > h3 {
 
 section#chamados {
     display: block;
-    
     margin: auto;
     width: 400px;
     height: 460px;
@@ -57,7 +56,8 @@ main#principal {
 }
 
 div#inclusao {
-    width: 55px;
+    width: 40px;
+    margin-bottom: 20px;
 }
 
 div#inclusao > a > button {
