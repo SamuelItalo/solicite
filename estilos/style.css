@@ -93,3 +93,37 @@ div#chamadob {
     background-color: #03738c9f;
     box-shadow: 2px 4px 13px 1px rgba(0, 0, 0, 0.329);
 }
+
+div#chamadoa > select#iaberto {
+    width: 90%;
+    height: 80%;
+}
+
+section#fomricl {
+    display: block;
+    margin: auto;
+    width: 450px;
+    height: 560px;
+   
+}
+
+
+form#setores {
+    
+    font-size: 1.2em;
+    margin-top: 30px;
+    height: 400px;
+    background-color: rgba(38, 39, 41, 0.137);border-radius: 10px;
+} 
+
+form#setores > p#psetor {
+    width: 100%;
+    padding: 10px;
+}
+
+form#setores > p#pdescri {
+    width: 100%;
+    padding: 10px;
+}
+
+
