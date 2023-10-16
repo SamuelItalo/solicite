@@ -62,7 +62,7 @@ div#inclusao {
 
 div#inclusao > a > button {
     display: block;
-    background-color: #F25A38;
+    background-color: #e75535ee;
     width: 55px;
     height: 40px;
     margin-top: 10px;
@@ -70,6 +70,10 @@ div#inclusao > a > button {
     border-radius: 0px 10px 10px 0px;
     border: none;
     box-shadow: -10px 2px 10px 0px rgba(0, 0, 0, 0.329);
+}
+
+div#inclusao > a > button:hover {
+    background-color: #ff5c37;
 }
 
 div#chamadoa {
