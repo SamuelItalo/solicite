@@ -94,36 +94,83 @@ div#chamadob {
     box-shadow: 2px 4px 13px 1px rgba(0, 0, 0, 0.329);
 }
 
-div#chamadoa > select#iaberto {
-    width: 90%;
-    height: 80%;
-}
+section#descricao {
+    position: absolute;
+    top: 50%;
+    left: 50%;
 
-section#fomricl {
-    display: block;
-    margin: auto;
-    width: 450px;
-    height: 560px;
-   
-}
-
-
-form#setores {
-    
     font-size: 1.2em;
-    margin-top: 30px;
-    height: 400px;
-    background-color: rgba(38, 39, 41, 0.137);border-radius: 10px;
-} 
+    overflow: hidden;
+    background-color: #F25A38;
+    color: white;
+    
+    width: 400px;
+    height: 300px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.377);
 
-form#setores > p#psetor {
-    width: 100%;
-    padding: 10px;
+    transform: translate(-50%, -50%);
 }
 
-form#setores > p#pdescri {
-    width: 100%;
+form#setores > p#setor {
+    text-align: left;
     padding: 10px;
+    background-color: #F25A38;
+    text-shadow: 2px 2px 5px black;
 }
 
 
+form#setores > p#setor  {
+    width: 230px;
+    border-radius: 7px;
+    padding: 8px;
+    background-color: #f25a383f;
+}
+
+form#setores > p#descri {
+    text-align: center;
+    background-color: #F25A38;
+    text-shadow: 2px 2px 5px black;
+}
+
+
+form#setores > p#descri > label#idescri {
+    border-radius: 10px;
+    padding: 6px;
+}
+
+form#setores > p#descri > textarea#idescri {
+    margin: 8px;
+}
+
+form#setores > p#botoes > a {
+    display: inline-block;
+    margin-left: 33%;
+    font-size: 1em;
+    text-decoration: none;
+    color: white;
+    background-color: #03738cc5;
+    border-radius: 5px;
+    padding: 6px;
+    
+}
+
+form#setores > p#botoes > a:hover  {
+background-color: #03738C;
+}
+
+form#setores > p#botoes > input {
+    font-size: 1em;
+    font-variant: normal;
+    width: 70px;
+    height: 38px;
+    color: white;
+    background-color: #af422aa4;
+    border: none;
+    border-radius: 5px;
+}
+
+form#setores > p#botoes > input:hover {
+    background-color: #dd5132;
+    cursor: pointer;
+}
