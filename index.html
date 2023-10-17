@@ -17,34 +17,35 @@
 
     <main id="principal">
         <div id="inclusao">
-            <a href="addchamado.html"><button><i class="material-icons">add_circle</i></button>
-            </a>
+            <button onclick="enviar()"><i class="material-icons">add_circle</i></button>
         </div>
 
         <section id="chamados">
 
             <div id="chamadoa">
-                <h1>Chamados abertos</h1>
-                <select name="aberto" id="iaberto">
-                    <ul>
-                        <li>Opção 1</li>
-                        <li>Opção 1</li>
-                        <li>Opção 1</li>
-                        <li>Opção 1</li>
-                        <li>Opção 1</li>
-                    </ul>
-                </select>
+                <p>Prencha o formulario para abrir um chamado.</p>
+
+                <form action="" method="post" id="formulario">
+                    <label for="isetor">Setor:</label>
+                    <input type="text" name="setor" id="isetor" required><br>
+
+                    <label for="idescri">Descrição do problema:</label>
+                    <textarea name="descri" id="idescri" cols="47" rows="8"></textarea>
+                </form>
+
             </div>
             
 
             <div id="chamadob">
-                <h1>Chamados concluídos</h1>
-                
+                <h1>Chamados abertos</h1>
+                <select name="aberto" id="iaberto" size="9" wid></select>
             </div>
 
         </section>
     </main>
 
-    <footer></footer>
+    <footer> &#174;S.I.V tecnologias</footer>
+
+    <script src="/backend.js"></script>
 </body>
 </html>

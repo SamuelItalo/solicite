@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../estilos/style.css">
+    <link rel="stylesheet" href="../estilos/mobile-query.css">
+    <title>Solicite help</title>
+</head>
+<body>
+    <section id="descricao">
+        <form action="" method="post" id="setores">
+            <p id="setor">
+                <label for="isetor" >Setor:</label>
+                <input type="text" name="setor" id="isetor" required>
+            </p>
+        
+            <p id="descri">
+                <label for="idescri">descrição do problema:</label><br>
+                <textarea name="descri" id="idescri" cols="50" rows="10" required></textarea>
+            </p>
+
+            <p id="botoes">
+                <a href="../index.html">Voltar</a>
+                <input type="button" value="Enviar" onclick="enviar()">
+            </p>
+        </form>
+
+    </section>
+
+    <script src="../backend.js"></script>
+</body>
+</html>

@@ -60,19 +60,18 @@ div#inclusao {
     margin-bottom: 20px;
 }
 
-div#inclusao > a > button {
+div#inclusao > button {
     display: block;
     background-color: #e75535ee;
     width: 55px;
     height: 40px;
     margin-top: 10px;
-    padding: 5px;
     border-radius: 0px 10px 10px 0px;
     border: none;
     box-shadow: -10px 2px 10px 0px rgba(0, 0, 0, 0.329);
 }
 
-div#inclusao > a > button:hover {
+div#inclusao > button:hover {
     background-color: #ff5c37;
 }
 
@@ -80,12 +79,33 @@ div#chamadoa {
     padding: 5px;
     text-align: center;
     width: 100%;
-    height: 48%;
+    height: 250px;
     border-radius:  10px;
     background-color: #f25a38e0;
     box-shadow: 2px 4px 13px 1px rgba(0, 0, 0, 0.329);
 }
+div#chamadoa > p {
+    color:white;
+    padding: 8px;    
+}
 
+div#chamadoa > form {
+    padding: 10px;
+    text-align: left;
+}
+
+div#chamadoa > form > input {
+    border-radius: 5px;
+    border: none;
+}
+
+
+div#chamadoa > form > textarea {
+    margin-top: 5px;
+    border-radius: 5px;
+    border: none;
+    width: 320px;
+}
 
 div#chamadob {
     padding: 5px;
@@ -177,4 +197,19 @@ form#setores > p#botoes > input {
 form#setores > p#botoes > input:hover {
     background-color: #dd5132;
     cursor: pointer;
+}
+
+footer {
+    text-align: center;
+    width: 100vw;
+    height: 30px;
+    margin-top: 30px;
+    background-color: #024b5c;
+    color: white;
+}
+
+#iaberto {
+    margin-bottom: 0px;
+    width: 300px;
+    border-radius: 5px;
 }
