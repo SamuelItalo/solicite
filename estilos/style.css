@@ -12,7 +12,7 @@
 body {
     background-color: #62c3d91a;
     width: 100vw;
-    height: 100vh;
+    height: 105vh;
 }
 
 header {
@@ -89,18 +89,18 @@ div#chamadoa > p {
     padding: 8px;    
 }
 
-div#chamadoa > form {
+div#chamadoa > div > form {
     padding: 10px;
     text-align: left;
 }
 
-div#chamadoa > form > input {
+div#chamadoa > div > form > input {
     border-radius: 5px;
     border: none;
 }
 
 
-div#chamadoa > form > textarea {
+div#chamadoa > div >form > textarea {
     margin-top: 5px;
     border-radius: 5px;
     border: none;
@@ -203,7 +203,7 @@ footer {
     text-align: center;
     width: 100vw;
     height: 30px;
-    margin-top: 30px;
+    margin-top: 73px;
     background-color: #024b5c;
     color: white;
 }

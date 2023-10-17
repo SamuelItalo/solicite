@@ -1,3 +1,39 @@
 @charset "UTF-8";
 
-/* media query *
+/* media query */
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {/*Configuração para Tablet*/
+
+
+
+}
+
+@media screen and (min-width: 992px) {/*Configuração para Desktop*/
+  body {
+    background-image: linear-gradient(to bottom, #03738c56, #f25a3841);
+  }
+  
+section#chamados {
+    display: block;
+    margin: auto;
+    width: 650px;
+    height: 500px;
+}
+
+div#chamadoa { 
+    width: 650px;
+    margin: auto;
+}
+
+div#chamadoa > form#fomulario {
+    display: block;
+    margin: auto;
+}
+
+#iaberto {
+    margin-bottom: 0px;
+    width: 500px;
+    border-radius: 5px;
+}
+
+}

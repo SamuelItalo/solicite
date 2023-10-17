@@ -5,7 +5,7 @@ let chamado = []
 
 function enviar() {
     if(setor.value == 0) {
-        alert('Por favor preencha o formulario antes de inserir um chamado!')
+        alert('Preencha o formulário antes de abrir um chamado!')
     }else {
         chamado.push(setor.value, descricao.value)
         let item = document.createElement('option')
